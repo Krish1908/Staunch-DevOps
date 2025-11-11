@@ -33,6 +33,9 @@ After every deployment, the project’s live status is verified through the resp
 | Monitoring | GitHub Actions Logs, URL Validation |
 | Tools | Nginx, Systemd, Bash, YAML |
 
+## Workflow Diagram
+![CI/CD Workflow Diagram](Staunch-CICD-workflows.png)
+
 ## Outcome
 
 - Reduced deployment time from manual to fully automated pushes.
