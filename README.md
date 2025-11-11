@@ -2,7 +2,7 @@
 This documentation explains my role and contributions as a Cloud & DevOps Engineer at Staunch, where I designed and implemented CI/CD pipelines for multiple internal projects using GitHub Actions and VM-based deployments.
 
 ## Overview
-- Developed automated CI/CD pipelines for various in-house projects at Staunch.
+- Developed automated CI/CD pipelines for various projects at Staunch.
 Whenever the development team pushes new code to the GitHub repository, the respective pipeline is triggered, and the updated code is deployed automatically to the connected virtual machine (VM).
 
 - All sensitive credentials and configuration files are securely managed using GitHub Secrets, ensuring a safe and compliant deployment process.
