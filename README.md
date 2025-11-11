@@ -38,7 +38,7 @@ After every deployment, the project’s live status is verified through the resp
 | Tools | Nginx, Systemd, Bash, YAML |
 
 ## Workflow Diagram
-![CI/CD Workflow Diagram](Staunch-CICD-workflows.png)
+![CI/CD Workflow Diagram](Staunch-CICD-workflows-1.png)
 
 ## Outcome
 
