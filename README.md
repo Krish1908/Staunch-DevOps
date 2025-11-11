@@ -1,5 +1,5 @@
 # Staunch - Cloud & DevOps
-This documentation explains my role and contributions as a Cloud & DevOps Engineer at Staunch, where I designed and implemented CI/CD pipelines for multiple internal projects using GitHub Actions and VM-based deployments.
+This documentation explains my role and contributions as a Cloud & DevOps Engineer at Staunch, where I designed and implemented CI/CD pipelines for multiple projects using GitHub Actions and VM-based deployments.
 
 ## Overview
 - Developed automated CI/CD pipelines for various projects at Staunch.
@@ -11,6 +11,8 @@ The pipeline status and logs are continuously monitored via the GitHub Actions d
 - Each pipeline includes security checks, validation steps, and service restarts to ensure consistent and reliable deployment across environments.
 After every deployment, the project’s live status is verified through the respective hosted URL.
 
+- Initial cloud infrastructure — including virtual machines, networking, and base environment setup — was provisioned using Terraform. Once infrastructure creation was completed, all subsequent deployments and updates were managed entirely via GitHub Actions, connecting directly to the configured VMs for application-level automation.
+
 ## Key Highlights
 - Designed end-to-end CI/CD workflows using GitHub Actions.
 
@@ -21,6 +23,8 @@ After every deployment, the project’s live status is verified through the resp
 - Integrated validation and rollback mechanisms to prevent failed deployments.
 
 - Achieved zero manual intervention during production pushes.
+
+- Applied Terraform for one-time infrastructure provisioning and baseline environment setup.
 
 ## Tech Stack
 
@@ -40,8 +44,10 @@ After every deployment, the project’s live status is verified through the resp
 
 - Reduced deployment time from manual to fully automated pushes.
 
-- Improved workflow reliability with built-in validation checks.
+- Improved workflow reliability with built-in validation and error handling.
 
-- Enhanced deployment visibility using GitHub Actions monitoring.
+- Enhanced deployment visibility using GitHub Actions monitoring and logs.
 
-- Delivered a scalable, secure, and maintainable DevOps pipeline foundation for multiple active projects.
+- Delivered a scalable, secure, and maintainable DevOps pipeline for multiple active projects.
+
+- Established a reusable cloud deployment foundation with Terraform and CI/CD integration.
