@@ -1,5 +1,5 @@
 # Staunch - Cloud & DevOps
-This documentation explains my role and contributions as a Cloud & DevOps Engineer at Staunch, where I designed and implemented CI/CD pipelines for multiple projects using GitHub Actions and VM-based deployments.
+This documentation explains my role and contributions as a Cloud & DevOps Engineer Intern at Staunch, where I designed and implemented CI/CD pipelines for multiple projects using GitHub Actions and VM-based deployments.
 
 ## Overview
 - Developed automated CI/CD pipelines for various projects at Staunch.
